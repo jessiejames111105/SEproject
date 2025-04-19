@@ -1,0 +1,66 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3 uid="uid://dsbwg85tu6epm"]
+
+[ext_resource type="Texture2D" uid="uid://bwesyb11kxxft" path="res://assets/objects/farmingTilesheetComplete (1).png" id="1_r3sq2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2sude"]
+atlas = ExtResource("1_r3sq2")
+region = Rect2(192, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r3sq2"]
+atlas = ExtResource("1_r3sq2")
+region = Rect2(96, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxqnr"]
+atlas = ExtResource("1_r3sq2")
+region = Rect2(64, 112, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1eeaq"]
+atlas = ExtResource("1_r3sq2")
+region = Rect2(96, 112, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rm3cc"]
+atlas = ExtResource("1_r3sq2")
+region = Rect2(144, 48, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2sude")
+}],
+"loop": true,
+"name": &"carrot",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r3sq2")
+}],
+"loop": true,
+"name": &"corn",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxqnr")
+}],
+"loop": true,
+"name": &"dirt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1eeaq")
+}],
+"loop": true,
+"name": &"normal_dirt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rm3cc")
+}],
+"loop": true,
+"name": &"onion",
+"speed": 5.0
+}]

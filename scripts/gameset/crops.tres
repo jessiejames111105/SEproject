@@ -1,0 +1,96 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://prl6wffcohx7"]
+
+[ext_resource type="Texture2D" uid="uid://bwesyb11kxxft" path="res://assets/objects/farmingTilesheetComplete (1).png" id="1_3ly4t"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_swerb"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(176, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ruw0d"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(160, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_phtjh"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(144, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l57te"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(80, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0s7f1"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(64, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ihywi"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(48, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oyjuh"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(176, 176, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pdnhg"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(128, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2grte"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(112, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_26olc"]
+atlas = ExtResource("1_3ly4t")
+region = Rect2(96, 48, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_swerb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ruw0d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_phtjh")
+}],
+"loop": true,
+"name": &"carrotgrowing",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l57te")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0s7f1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ihywi")
+}],
+"loop": true,
+"name": &"corngrowing",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oyjuh")
+}],
+"loop": true,
+"name": &"none",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pdnhg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2grte")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_26olc")
+}],
+"loop": true,
+"name": &"oniongrowing",
+"speed": 0.0
+}]

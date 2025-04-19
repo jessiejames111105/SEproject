@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://bxpoykinbyp5j"]
+
+[ext_resource type="Script" uid="uid://dvttgbrefo1my" path="res://scripts/state_machine/growingzone.gd" id="1_pr7l2"]
+[ext_resource type="SpriteFrames" uid="uid://dsbwg85tu6epm" path="res://scripts/gameset/gamecrops.tres" id="2_ed8wh"]
+[ext_resource type="SpriteFrames" uid="uid://prl6wffcohx7" path="res://scripts/gameset/crops.tres" id="3_eqrwv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2unfe"]
+size = Vector2(11, 9.5)
+
+[node name="growingzone" type="StaticBody2D"]
+script = ExtResource("1_pr7l2")
+
+[node name="hoedland" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_ed8wh")
+animation = &"normal_dirt"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 0.25)
+shape = SubResource("RectangleShape2D_2unfe")
+
+[node name="plant" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -4)
+sprite_frames = ExtResource("3_eqrwv")
+animation = &"none"
+
+[node name="oniongrowtimer" type="Timer" parent="."]
+wait_time = 5.0
+
+[node name="carrotgrowtimer" type="Timer" parent="."]
+wait_time = 5.0
+
+[node name="corngrowtimer" type="Timer" parent="."]
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="timeout" from="oniongrowtimer" to="." method="_on_oniongrowtimer_timeout"]
+[connection signal="timeout" from="carrotgrowtimer" to="." method="_on_carrotgrowtimer_timeout"]
+[connection signal="timeout" from="corngrowtimer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://djqiy1j5vujno"]
+
+[ext_resource type="Texture2D" uid="uid://cui71i2u7mll0" path="res://assets/objects/buttons/missions.png" id="1_ok5bo"]
+[ext_resource type="Script" uid="uid://cr0xyc0wu330e" path="res://scripts/state_machine/buttonmission.gd" id="2_iyhgg"]
+
+[node name="MissionButton" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(48, 52)
+scale = Vector2(0.326087, 0.355072)
+texture = ExtResource("1_ok5bo")
+script = ExtResource("2_iyhgg")

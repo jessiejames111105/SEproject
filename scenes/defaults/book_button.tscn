@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dy23vjrc3qes0"]
+
+[ext_resource type="Texture2D" uid="uid://chfule1i1cuj5" path="res://assets/objects/buttons/book.png" id="1_y33p8"]
+[ext_resource type="Script" uid="uid://dtjlgbwd3aapy" path="res://scripts/state_machine/buttonbook.gd" id="2_pmqh0"]
+
+[node name="BookButton" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(36.25, 31)
+scale = Vector2(0.362944, 0.430556)
+texture = ExtResource("1_y33p8")
+script = ExtResource("2_pmqh0")

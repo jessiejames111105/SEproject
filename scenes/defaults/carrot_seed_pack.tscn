@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://5pvrolpn0die"]
+
+[ext_resource type="Script" uid="uid://ctbstfvjj0pgn" path="res://scripts/state_machine/carrot_seed_pack.gd" id="1_fhty7"]
+[ext_resource type="SpriteFrames" uid="uid://dsbwg85tu6epm" path="res://scripts/gameset/gamecrops.tres" id="2_fhty7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_71w2s"]
+radius = 5.0
+
+[node name="carrot_seed_pack" type="StaticBody2D"]
+script = ExtResource("1_fhty7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_fhty7")
+animation = &"carrot"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_71w2s")
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]

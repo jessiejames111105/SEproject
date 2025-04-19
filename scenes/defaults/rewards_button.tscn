@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bokyxqawols0c"]
+
+[ext_resource type="Texture2D" uid="uid://yxygidblskc5" path="res://assets/objects/buttons/rewards.png" id="1_s7tol"]
+[ext_resource type="Script" uid="uid://du1ovmqslql6y" path="res://scripts/state_machine/buttonrewards.gd" id="2_r7ucw"]
+
+[node name="RewardsButton" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(39.75, 43)
+scale = Vector2(0.349576, 0.355932)
+texture = ExtResource("1_s7tol")
+script = ExtResource("2_r7ucw")
