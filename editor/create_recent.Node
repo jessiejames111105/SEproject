@@ -1,0 +1,14 @@
+CollisionShape2D
+AnimatedSprite2D
+TileMapLayer
+TileMap
+Sprite2D
+Button
+TextureButton
+CanvasLayer
+Control
+CharacterBody2D
+RichTextLabel
+StaticBody2D
+Timer
+Node2D

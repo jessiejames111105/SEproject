@@ -1,0 +1,82 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1745068442
+::res://addons/::1744902556
+::res://addons/godot-git-plugin/::1744902556
+git_plugin.gdextension::GDExtension/GDExtension::8975556960755091519::1744902556::0::1::::<><><>0<>0<><>::
+plugin.cfg::TextFile/TextFile::-1::1744902556::0::1::::<><><>0<>0<><>::
+THIRDPARTY.md::TextFile/TextFile::-1::1744902556::0::1::::<><><>0<>0<><>::
+::res://addons/godot-git-plugin/linux/::1744902556
+::res://addons/godot-git-plugin/macos/::1744902556
+::res://addons/godot-git-plugin/win64/::1745068429
+::res://assets/::1744895952
+::res://assets/character/::1744897949
+Basic Charakter Spritesheet.png::CompressedTexture2D/CompressedTexture2D::5995555097274848516::1721895650::1744897037::1::::<><><>0<>0<>589bbd9776fdb8ec4b1bea25f5af265e<>res://.godot/imported/Basic Charakter Spritesheet.png-dfe5a1c3cc0c35fc71063a024052b4c2.ctex::
+characterspritesheet.png::CompressedTexture2D/CompressedTexture2D::4468330284173572109::1744896926::1744896958::1::::<><><>0<>0<>291798876187e3cac0b8f5292de6e59d<>res://.godot/imported/characterspritesheet.png-429345e856ee76871336893265e655f3.ctex::
+Pixel Gnome DEMO - Pickaxe_left.png::CompressedTexture2D/CompressedTexture2D::3144172141618568003::1744897947::1744897949::1::::<><><>0<>0<>11f76c4e33b1a42537b06d64f4bd0bbf<>res://.godot/imported/Pixel Gnome DEMO - Pickaxe_left.png-35dcbf7509b0761b80c261b2d178fd86.ctex::
+Pixel Gnome DEMO - Walk - 2png.png::CompressedTexture2D/CompressedTexture2D::7375922525861169962::1744897567::1744897569::1::::<><><>0<>0<>9b0cfbdf3428a4657bfef44998e12723<>res://.godot/imported/Pixel Gnome DEMO - Walk - 2png.png-5e5ad77577b9c12bf08d50f04c871897.ctex::
+::res://assets/character/Pixel Gnome - DEMO Pack/::1744895959
+Pixel Gnome DEMO - Idle - Still.png::CompressedTexture2D/CompressedTexture2D::5164984770268115992::1744895958::1744895959::1::::<><><>0<>0<>564fbd83e63c942dde1a4f06c4ef0749<>res://.godot/imported/Pixel Gnome DEMO - Idle - Still.png-105c9b482fda019215953efd4c552475.ctex::
+Pixel Gnome DEMO - Pickaxe.png::CompressedTexture2D/CompressedTexture2D::6059162775644374889::1744895958::1744895959::1::::<><><>0<>0<>345cf33310318fb7cd2d519a62d9e6ff<>res://.godot/imported/Pixel Gnome DEMO - Pickaxe.png-a58e38d81e38030bf8267efe2546f283.ctex::
+Pixel Gnome DEMO - Walk.png::CompressedTexture2D/CompressedTexture2D::6558245858964992458::1744895958::1744895959::1::::<><><>0<>0<>1673f26810e9c4c94ad0d5ffcab3b483<>res://.godot/imported/Pixel Gnome DEMO - Walk.png-7593ff7226cfc048702fb0b856d7dd04.ctex::
+Read Me.txt::TextFile/TextFile::-1::1744895958::0::1::::<><><>0<>0<><>::
+::res://assets/character/Pixel Gnome - DEMO Pack/1000% Size/::1744895961
+Pixel Gnome DEMO - Idle - Still - 1000%.png::CompressedTexture2D/CompressedTexture2D::2174239279543856917::1744895958::1744895959::1::::<><><>0<>0<>06b91190654462eafef076a61e614c7c<>res://.godot/imported/Pixel Gnome DEMO - Idle - Still - 1000%.png-f026e9db040ea7a95013b3bdab15b8ee.ctex::
+Pixel Gnome DEMO - Pickaxe - 1000%.png::CompressedTexture2D/CompressedTexture2D::5035381190532286483::1744895958::1744895961::1::::<><><>0<>0<>a5ac25939678f9c1d80f4498b150a698<>res://.godot/imported/Pixel Gnome DEMO - Pickaxe - 1000%.png-227a298edf72016368d32b2d5483cd4d.ctex::
+Pixel Gnome DEMO - Walk - 1000%.png::CompressedTexture2D/CompressedTexture2D::1513045768917929123::1744895958::1744895960::1::::<><><>0<>0<>e384ae008b4c31c1404cc9c3d344f481<>res://.godot/imported/Pixel Gnome DEMO - Walk - 1000%.png-b0a1a659cb59cc94f13878917a452b1f.ctex::
+::res://assets/objects/::1745043193
+Basic_Grass_Biom_things.png::CompressedTexture2D/CompressedTexture2D::4219990006187131311::1744892503::1744892506::1::::<><><>0<>0<>b4a304b37eace297775cd6889538a472<>res://.godot/imported/Basic_Grass_Biom_things.png-3fb40c67fdb267c8c2864ee9f5c19d45.ctex::
+farmingTilesheetComplete (1).png::CompressedTexture2D/CompressedTexture2D::3939968613553446577::1744889067::1744989683::1::::<><><>0<>0<>b657d9c5edaf2eb068458c13d0a043e7<>res://.godot/imported/farmingTilesheetComplete (1).png-54876a3be627be73e53fc6757a8210b2.ctex::
+free.png::CompressedTexture2D/CompressedTexture2D::3090491852285446013::1744891187::1744891187::1::::<><><>0<>0<>9222c5083da707a8e62973c9083a0768<>res://.godot/imported/free.png-f916aaed7a5fd2c7e17c5f32f5940d9d.ctex::
+Grass.png::CompressedTexture2D/CompressedTexture2D::8748948780967344268::1744891469::1744891469::1::::<><><>0<>0<>0c00357ff9dbba0985574f307b94f6da<>res://.godot/imported/Grass.png-f3c64ffe74c7f01df6f4234d11178809.ctex::
+Hills.png::CompressedTexture2D/CompressedTexture2D::8604437354051144578::1744891403::1744891404::1::::<><><>0<>0<>3cae8961d4cd6059b091076345c6e271<>res://.godot/imported/Hills.png-e9a2b5e29ebbfaa1b29f0a1b01851169.ctex::
+Paths.png::CompressedTexture2D/CompressedTexture2D::6616509721333623512::1744892259::1744892512::1::::<><><>0<>0<>eb4d61e35787250e47d481c550825ea1<>res://.godot/imported/Paths.png-5aadc1a02acd6d1bcb62615545a59b54.ctex::
+Tilled_Dirt_Wide_v2.png::CompressedTexture2D/CompressedTexture2D::800356536545971236::1745043193::1745043193::1::::<><><>0<>0<>144e65ee78771e543f37a89a474fcdd5<>res://.godot/imported/Tilled_Dirt_Wide_v2.png-d1ef976ba041ec9e525f601a1b060684.ctex::
+Water.png::CompressedTexture2D/CompressedTexture2D::3872893696453770380::1744891395::1744891395::1::::<><><>0<>0<>7029bdd2f1754c67bda4c1349f889cb4<>res://.godot/imported/Water.png-2f35440799d1d26f2e31c61f0ac4cd08.ctex::
+Wood_Bridge.png::CompressedTexture2D/CompressedTexture2D::8357171984623305453::1744892255::1744892510::1::::<><><>0<>0<>15ae000acc302ce118fa054b4d402a01<>res://.godot/imported/Wood_Bridge.png-12e0bb9bf3d96bf4fc584a8ba72de253.ctex::
+::res://assets/objects/buttons/::1745038819
+bag.png::CompressedTexture2D/CompressedTexture2D::3690205553221852576::1745038741::1745038819::1::::<><><>0<>0<>714ecc1973c35ff57b020a34d37d2371<>res://.godot/imported/bag.png-b96bb9599c5e0dee86832dd198363437.ctex::
+book.png::CompressedTexture2D/CompressedTexture2D::5275719395867656400::1745038744::1745038819::1::::<><><>0<>0<>ba961fb1d70fcfdf66064e6bb06d3b4a<>res://.godot/imported/book.png-8649335ae5b0bd68d7641c82505f1bfa.ctex::
+map.png::CompressedTexture2D/CompressedTexture2D::1717975330374293775::1745038760::1745038819::1::::<><><>0<>0<>4ffd57a5aeb018620576b74e91c0c5d7<>res://.godot/imported/map.png-599b7f83e4737b53cf8bd0f93ed4b5f1.ctex::
+missions.png::CompressedTexture2D/CompressedTexture2D::6195123099437858523::1745038752::1745038819::1::::<><><>0<>0<>34cd83526806c59e3f7ccb426e2d8a23<>res://.godot/imported/missions.png-5b30c1755a081946a7930b4edce4a67f.ctex::
+rewards.png::CompressedTexture2D/CompressedTexture2D::1733481283128045226::1745038755::1745038819::1::::<><><>0<>0<>0da53548610311d40b068dfdf58c2a93<>res://.godot/imported/rewards.png-fcb0d64031237f0b375797268d574006.ctex::
+settings.png::CompressedTexture2D/CompressedTexture2D::1265437797073038482::1745038747::1745038819::1::::<><><>0<>0<>07a08a40e92b795146714c52d682eca6<>res://.godot/imported/settings.png-73a628ea839167c150658343d27f676b.ctex::
+::res://scenes/::1745042874
+::res://scenes/character/::1744989144
+::res://scenes/character/player/::1745046886
+player.tscn::PackedScene::1945545967481832222::1745046886::0::1::::<><><>0<>0<><>::uid://csldr4wsrvpjd::::res://assets/character/Pixel Gnome - DEMO Pack/Pixel Gnome DEMO - Pickaxe.png<>uid://dtf3epp46737r::::res://scripts/state_machine/player.gd<>uid://cft7srrdieq53::::res://assets/character/Pixel Gnome - DEMO Pack/Pixel Gnome DEMO - Idle - Still.png<>uid://c0o4l65vtlh1s::::res://assets/character/Pixel Gnome - DEMO Pack/Pixel Gnome DEMO - Walk.png
+::res://scenes/defaults/::1745046886
+bag_button.tscn::PackedScene/PackedScene::7850810955771719277::1745041887::0::1::::<><><>0<>0<><>::uid://bstte8e2b0ckm::::res://assets/objects/buttons/bag.png<>uid://cgy63418046tg::::res://scripts/state_machine/buttonbag.gd
+book_button.tscn::PackedScene/PackedScene::8901270574321906893::1745041887::0::1::::<><><>0<>0<><>::uid://chfule1i1cuj5::::res://assets/objects/buttons/book.png<>uid://dtjlgbwd3aapy::::res://scripts/state_machine/buttonbook.gd
+carrot_seed_pack.tscn::PackedScene/PackedScene::2137937143815987800::1745041241::0::1::::<><><>0<>0<><>::uid://ctbstfvjj0pgn::::res://scripts/state_machine/carrot_seed_pack.gd<>uid://dsbwg85tu6epm::::res://scripts/gameset/gamecrops.tres
+corn_seed_pack.tscn::PackedScene/PackedScene::5247287347858087502::1745041241::0::1::::<><><>0<>0<><>::uid://bqlhnfaaeqowv::::res://scripts/state_machine/corn_seed_pack.gd<>uid://dsbwg85tu6epm::::res://scripts/gameset/gamecrops.tres
+default_map.tscn::PackedScene::2599709676876844653::1745046886::0::1::::<><><>0<>0<><>::uid://cctp6rhfekelr::::res://scripts/gameset/game_map.tres<>uid://djqiy1j5vujno::::res://scenes/defaults/mission_button.tscn<>uid://bokyxqawols0c::::res://scenes/defaults/rewards_button.tscn<>uid://dxx1ae0uttd1s::::res://scenes/defaults/settings_button.tscn<>uid://dy23vjrc3qes0::::res://scenes/defaults/book_button.tscn<>uid://dj38yedgpyv8h::::res://scenes/defaults/bag_button.tscn<>uid://waylp7lt1m0w::::res://scenes/defaults/map_button.tscn<>uid://2yo4fwn60335::::res://scenes/character/player/player.tscn
+growingzone.tscn::PackedScene/PackedScene::4032623188816085809::1745041241::0::1::::<><><>0<>0<><>::uid://dvttgbrefo1my::::res://scripts/state_machine/growingzone.gd<>uid://dsbwg85tu6epm::::res://scripts/gameset/gamecrops.tres<>uid://prl6wffcohx7::::res://scripts/gameset/crops.tres
+map_button.tscn::PackedScene/PackedScene::1545632249406271608::1745041887::0::1::::<><><>0<>0<><>::uid://yqg2j6aecoyx::::res://assets/objects/buttons/map.png<>uid://ct61cet0i3vnr::::res://scripts/state_machine/buttonmap.gd
+mission_button.tscn::PackedScene/PackedScene::7824521663784666460::1745041887::0::1::::<><><>0<>0<><>::uid://cui71i2u7mll0::::res://assets/objects/buttons/missions.png<>uid://cr0xyc0wu330e::::res://scripts/state_machine/buttonmission.gd
+onion_seed_pack.tscn::PackedScene/PackedScene::5497836240045108579::1745041241::0::1::::<><><>0<>0<><>::uid://c8kkka4suwadk::::res://scripts/state_machine/onion_seed_pack.gd<>uid://dsbwg85tu6epm::::res://scripts/gameset/gamecrops.tres
+rewards_button.tscn::PackedScene/PackedScene::3391207394644704276::1745041887::0::1::::<><><>0<>0<><>::uid://yxygidblskc5::::res://assets/objects/buttons/rewards.png<>uid://du1ovmqslql6y::::res://scripts/state_machine/buttonrewards.gd
+settings_button.tscn::PackedScene/PackedScene::8822665034557711898::1745041887::0::1::::<><><>0<>0<><>::uid://sa8tto02ciek::::res://assets/objects/buttons/settings.png<>uid://k4sw1t32bwq2::::res://scripts/state_machine/buttonsettings.gd
+::res://scenes/test/::1745048754
+character_testscene.tscn::PackedScene::3580907848146364994::1745046887::0::1::::<><><>0<>0<><>::uid://dv5qkj0o5yiph::::res://scripts/state_machine/character_testscene.gd<>uid://cctp6rhfekelr::::res://scripts/gameset/game_map.tres<>uid://2yo4fwn60335::::res://scenes/character/player/player.tscn<>uid://5pvrolpn0die::::res://scenes/defaults/carrot_seed_pack.tscn<>uid://cklgta6xg4uud::::res://scenes/defaults/onion_seed_pack.tscn<>uid://bxpoykinbyp5j::::res://scenes/defaults/growingzone.tscn<>uid://cg03b5yjmbw11::::res://scenes/defaults/corn_seed_pack.tscn<>uid://bwesyb11kxxft::::res://assets/objects/farmingTilesheetComplete (1).png
+tilling.gd::GDScript::5172292222156020506::1745044412::0::1::::<>Node2D<><>0<>0<><>::
+tilling.tscn::PackedScene::524546831135798394::1745048754::0::1::::<><><>0<>0<><>::uid://dhc8krkam0bmu::::res://scripts/gameset/tilling.tres<>uid://bwesyb11kxxft::::res://assets/objects/farmingTilesheetComplete (1).png<>uid://cfxq5rgiegycg::::res://scenes/test/tilling.gd<>uid://2yo4fwn60335::::res://scenes/character/player/player.tscn
+::res://scripts/::1745041678
+::res://scripts/gameset/::1745043874
+crops.tres::SpriteFrames::1088651486389119034::1745043464::0::1::::<><><>0<>0<><>::uid://bwesyb11kxxft::::res://assets/objects/farmingTilesheetComplete (1).png
+gamecrops.tres::SpriteFrames::8426073883428148018::1745043464::0::1::::<><><>0<>0<><>::uid://bwesyb11kxxft::::res://assets/objects/farmingTilesheetComplete (1).png
+game_map.tres::TileSet::4953409250435455239::1745039497::0::1::::<><><>0<>0<><>::uid://bwesyb11kxxft::::res://assets/objects/farmingTilesheetComplete (1).png<>uid://bkbb7jmr47rrh::::res://assets/objects/free.png<>uid://duub3c76ogi8q::::res://assets/objects/Hills.png<>uid://dwwb544kp6aiu::::res://assets/objects/Grass.png<>uid://bvgb81knae67q::::res://assets/objects/Water.png<>uid://drcjnwibmbsjl::::res://assets/objects/Wood_Bridge.png<>uid://c1jc7im7cmrem::::res://assets/objects/Paths.png<>uid://b1egvbnon2jc6::::res://assets/objects/Basic_Grass_Biom_things.png
+tilling.tres::TileSet::7656735139116008504::1745043874::0::1::::<><><>0<>0<><>::uid://bwesyb11kxxft::::res://assets/objects/farmingTilesheetComplete (1).png<>uid://dwwb544kp6aiu::::res://assets/objects/Grass.png
+::res://scripts/state_machine/::1745041690
+buttonbag.gd::GDScript/GDScript::5245453289192951200::1745041453::0::1::::<>Sprite2D<><>0<>0<><>::
+buttonbook.gd::GDScript/GDScript::8512108168355088438::1745041318::0::1::::<>Sprite2D<><>0<>0<><>::
+buttonmap.gd::GDScript/GDScript::6172007560876794335::1745041584::0::1::::<>Sprite2D<><>0<>0<><>::
+buttonmission.gd::GDScript/GDScript::6019100647665843686::1745040679::0::1::::<>Sprite2D<><>0<>0<><>::
+buttonrewards.gd::GDScript/GDScript::8617600940846490706::1745040933::0::1::::<>Sprite2D<><>0<>0<><>::
+buttonsettings.gd::GDScript/GDScript::762888980850487307::1745041077::0::1::::<>Sprite2D<><>0<>0<><>::
+carrot_seed_pack.gd::GDScript/GDScript::6109620905696456013::1744985589::0::1::::<>StaticBody2D<><>0<>0<><>::
+character_testscene.gd::GDScript/GDScript::8696148941930489669::1744988436::0::1::::<>Node2D<><>0<>0<><>::
+corn_seed_pack.gd::GDScript/GDScript::3532598834089147513::1744986152::0::1::::<>StaticBody2D<><>0<>0<><>::
+global.gd::GDScript/GDScript::4975637110529217369::1744988229::0::1::::<>Node<><>0<>0<><>::
+growingzone.gd::GDScript/GDScript::8673615361405140504::1744988554::0::1::::<>StaticBody2D<><>0<>0<><>::
+onion_seed_pack.gd::GDScript/GDScript::7110342058493339360::1744913354::0::1::::<>StaticBody2D<><>0<>0<><>::
+player.gd::GDScript/GDScript::8504880000327961233::1744995577::0::1::::<>CharacterBody2D<><>0<>0<><>::
