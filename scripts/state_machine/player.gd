@@ -1,5 +1,8 @@
 extends CharacterBody2D
 
+signal plantSeed
+signal harvest
+
 var speed = 50
 var last_input_vector = Vector2.ZERO
 var is_tilling = false
@@ -8,6 +11,7 @@ const TILLING_DURATION = 1.0  # 1 second
 
 func _ready():
 	$AnimatedSprite2D.stop()
+
 
 func _physics_process(delta):
 	var input_vector = Vector2.ZERO
@@ -25,6 +29,11 @@ func _physics_process(delta):
 
 		input_vector = input_vector.normalized()
 		velocity = input_vector * speed
+		
+		if Input.is_action_just_pressed("plantSeed"):
+			emit_signal("plantSeed")
+		if Input.is_action_just_pressed("harvest"):
+			emit_signal("harvest")
 	else:
 		velocity = Vector2.ZERO
 
