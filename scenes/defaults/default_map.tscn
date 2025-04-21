@@ -1,16 +1,10 @@
-[gd_scene load_steps=9 format=4 uid="uid://bdbk3rmuloshx"]
+[gd_scene load_steps=3 format=4 uid="uid://bdbk3rmuloshx"]
 
 [ext_resource type="TileSet" uid="uid://cctp6rhfekelr" path="res://scripts/gameset/game_map.tres" id="1_pa4xc"]
-[ext_resource type="PackedScene" uid="uid://djqiy1j5vujno" path="res://scenes/defaults/mission_button.tscn" id="2_fdge3"]
-[ext_resource type="PackedScene" uid="uid://bokyxqawols0c" path="res://scenes/defaults/rewards_button.tscn" id="3_ymluj"]
-[ext_resource type="PackedScene" uid="uid://dxx1ae0uttd1s" path="res://scenes/defaults/settings_button.tscn" id="4_1gq2y"]
-[ext_resource type="PackedScene" uid="uid://dy23vjrc3qes0" path="res://scenes/defaults/book_button.tscn" id="5_xocjw"]
-[ext_resource type="PackedScene" uid="uid://dj38yedgpyv8h" path="res://scenes/defaults/bag_button.tscn" id="6_wy6hx"]
-[ext_resource type="PackedScene" uid="uid://waylp7lt1m0w" path="res://scenes/defaults/map_button.tscn" id="7_r0g4o"]
 [ext_resource type="PackedScene" uid="uid://2yo4fwn60335" path="res://scenes/character/player/player.tscn" id="8_fdge3"]
 
 [node name="DefaultMap" type="Node2D"]
-metadata/_edit_horizontal_guides_ = [243.0]
+position = Vector2(-409, -198)
 
 [node name="GameMap" type="Node2D" parent="."]
 
@@ -41,22 +35,19 @@ tile_set = ExtResource("1_pa4xc")
 tile_map_data = PackedByteArray("AAAgABgABwAAAAAAAGAhABgABwAAAAEAAGAiABgABwAAAAIAAGAiABcABwAAAAAAAFAhABcABwAAAAEAAFAgABcABwAAAAIAAFAiABkABwAAAAAAAFAhABkABwAAAAEAAFAgABkABwAAAAIAAFAqAAgACAABAAEAAAAqAAkACAABAAIAAAArAAgACAACAAEAAAArAAkACAACAAIAAAAsAAoACAABAAEAAAAsAAsACAABAAIAAAAtAAoACAACAAEAAAAtAAsACAACAAIAAAAqABAACAABAAEAAAAqABEACAABAAIAAAArABAACAACAAEAAAArABEACAACAAIAAAA=")
 tile_set = ExtResource("1_pa4xc")
 
-[node name="MissionButton" parent="." instance=ExtResource("2_fdge3")]
-position = Vector2(1064, -12)
-
-[node name="RewardsButton" parent="." instance=ExtResource("3_ymluj")]
-position = Vector2(1072, 61)
-
-[node name="SettingsButton" parent="." instance=ExtResource("4_1gq2y")]
-
-[node name="BookButton" parent="." instance=ExtResource("5_xocjw")]
-position = Vector2(5, 66)
-
-[node name="BagButton" parent="." instance=ExtResource("6_wy6hx")]
-position = Vector2(5, 134)
-
-[node name="MapButton" parent="." instance=ExtResource("7_r0g4o")]
-position = Vector2(-7, 567)
-
 [node name="Player" parent="." instance=ExtResource("8_fdge3")]
-position = Vector2(753, 125)
+position = Vector2(739, 345)
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
+remote_path = NodePath("../../Camera2D")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(739, 345)
+zoom = Vector2(1.5, 1.5)
+process_callback = 0
+limit_left = -410
+limit_top = -196
+limit_right = 744
+limit_bottom = 461
+limit_smoothed = true
+position_smoothing_enabled = true
